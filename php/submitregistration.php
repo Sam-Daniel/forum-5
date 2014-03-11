@@ -21,8 +21,8 @@ if (strcmp($passWord,$passWord2) == 0)
     {
         die('Error: ' . mysqli_error($con));
     }
-    echo "Account Registration complete!";
     mysqli_close($con);
+    echo "Account Registration complete!";
 }
 else
 {

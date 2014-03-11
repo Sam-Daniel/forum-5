@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+session_start();
+if (isset($_SESSION['sid']))
+{
+    header( 'Location: php/index.php' ) ;
+    die();
+}
+?>
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -12,7 +15,7 @@ and open the template in the editor.
     <body>
         <h1>Scott's forums</h1>
         <h2>Login</h2>
-        <form name="input" action="cgi-bin\login.php" method="post">
+        <form name="input" action="php\dologin.php" method="post">
         User Name: <input type="text" name="uname"><br>
         Password: <input type="password" name="pwd"><br>
         <input type="submit" value="Submit"><br>

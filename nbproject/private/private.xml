@@ -3,11 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp/www/scott/js/passtest.js</file>
-            <file>file:/C:/wamp/www/scott/cgi-bin/submitregistration.php</file>
-            <file>file:/C:/wamp/www/scott/cgi-bin/login.php</file>
-            <file>file:/C:/wamp/www/scott/Register.html</file>
-            <file>file:/C:/wamp/www/scott/index.html</file>
+            <file>file:/C:/wamp/www/forum/login.php</file>
+            <file>file:/C:/wamp/www/forum/php/submitregistration.php</file>
+            <file>file:/C:/wamp/www/forum/Register.html</file>
+            <file>file:/C:/wamp/www/forum/php/dologin.php</file>
+            <file>file:/C:/wamp/www/forum/php/index.php</file>
         </group>
     </open-files>
 </project-private>
